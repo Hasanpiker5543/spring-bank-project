@@ -180,27 +180,3 @@ Transaction
 - account_id
 ```
 
-## Rapport technique
-
-Le rapport PDF peut contenir :
-
-1. Introduction du projet
-2. Architecture globale Backend/Frontend
-3. Diagramme de base de données
-4. Description des entités JPA
-5. Description des endpoints REST
-6. Choix techniques
-7. Captures d'écran de l'interface
-8. Conclusion
-
-## Vidéo de démonstration
-
-Plan conseillé :
-
-1. Montrer la structure `backend` et `frontend`
-2. Lancer Spring Boot
-3. Lancer React
-4. Afficher le dashboard
-5. Montrer les comptes et transactions
-6. Faire un transfert de `ACC-TOUFIK-001` vers `ACC-MEHDI-001`
-7. Montrer que les soldes et transactions changent
