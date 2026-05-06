@@ -2,6 +2,10 @@
 
 Application de gestion bancaire réimplémentée avec un backend Spring Boot REST API et un frontend React.
 
+## Auteur
+
+El-Mehdi Taoufik
+
 ## Fonctionnalités
 
 - Dashboard moderne
