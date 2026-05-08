@@ -204,6 +204,11 @@ Comptes :
 - ACC-MEHDI-001
 - ACC-ADMIN-001
 
+## Livrables
+
+- Rapport technique : `Rapport_Technique_Spring_BankApp_El-Mehdi_Taoufik.pdf`
+- Vidéo de démonstration : `video/0506(1).mp4`
+
 ## Schéma de base de données
 
 ```text
