@@ -1,7 +1,5 @@
 # BankApp Spring Boot + React
 
-[![CI/CD](https://github.com/Hasanpiker5543/spring-bank-project/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/Hasanpiker5543/spring-bank-project/actions/workflows/ci-cd.yml)
-
 Application de gestion bancaire réimplémentée avec un backend Spring Boot REST API et un frontend React.
 
 ## Auteur
@@ -104,46 +102,6 @@ Frontend disponible sur :
 
 ```text
 http://localhost:5173
-```
-
-## Lancer avec Docker
-
-Le projet inclut un `Dockerfile` pour le backend, un `Dockerfile` pour le frontend et un fichier `docker-compose.yml`.
-
-```powershell
-docker compose up --build
-```
-
-Services disponibles :
-
-```text
-Frontend: http://localhost:5173
-Backend:  http://localhost:8080
-```
-
-## CI/CD
-
-Le dépôt utilise GitHub Actions avec le workflow `.github/workflows/ci-cd.yml`.
-
-Le pipeline est déclenché sur :
-
-- push vers `main` ou `develop`
-- pull request vers `main` ou `develop`
-
-Étapes exécutées :
-
-- installation de Java 21
-- exécution des tests backend avec Maven
-- installation des dépendances frontend
-- build du frontend React
-- build des images Docker backend et frontend
-- publication des images Docker sur GitHub Container Registry après un push réussi sur `main`
-
-Images Docker publiées :
-
-```text
-ghcr.io/Hasanpiker5543/spring-bank-backend:latest
-ghcr.io/Hasanpiker5543/spring-bank-frontend:latest
 ```
 
 ## API REST
